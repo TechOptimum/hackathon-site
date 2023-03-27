@@ -48,7 +48,8 @@ export default function Header() {
     };
     const buttonDelay = 0.15;
     return (
-        <>
+        <div
+            >
             <Flex
                 zIndex="100 !important"
                 justifyContent="space-between"
@@ -223,14 +224,14 @@ export default function Header() {
                         animate="visible"
                     >
                         <ButtonGroup gap='4'>
-                            <Button bgColor={"#333333"}>Sign Up</Button>
+                            <Button bgColor={"#333333"} borderRadius="20px">Sign Up</Button>
                             <Link href="./login">
-                                <Button bgColor={"#1B76FF"}>Log In</Button>
+                                <Button bgColor={"#1B76FF"} borderRadius="20px">Log In</Button>
                             </Link>
                         </ButtonGroup>
                     </motion.div>
                 </Flex>
             </Flex>
-        </>
+        </div>
     );
 }
