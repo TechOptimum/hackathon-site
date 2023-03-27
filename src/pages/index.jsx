@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Heading } from "@chakra-ui/react";
+import Layout from "@/components/layout/layout";
 
 export default function Home() {
   return (
@@ -13,7 +14,10 @@ export default function Home() {
         <link rel="icon" href="/TOFavicon(Dblue).ico" />
       </Head>
       {/* CONTENT */}
-      <Heading>Welcome to TOHacks!</Heading>
+      {/* <Heading>Welcome to TOHacks!</Heading> */}
+      <Layout>
+        Test
+      </Layout>
       {/* CONTENT */}
     </>
   );
