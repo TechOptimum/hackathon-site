@@ -13,6 +13,7 @@ import {
     NextChakraLink,
     SimpleButton,
     Image,
+    ButtonGroup,
 } from "@chakra-ui/react";
 
 import Link from "next/link";
@@ -138,26 +139,26 @@ export default function Header() {
                                 </motion.div>
                             </li>
                             <li>
-                                    <motion.div
-                                        variants={{
-                                            ...buttonVariants,
-                                            visible: {
-                                                ...buttonVariants.visible,
-                                                transition: {
-                                                    ...buttonVariants.visible.transition,
-                                                    delay: buttonDelay * 5,
-                                                },
+                                <motion.div
+                                    variants={{
+                                        ...buttonVariants,
+                                        visible: {
+                                            ...buttonVariants.visible,
+                                            transition: {
+                                                ...buttonVariants.visible.transition,
+                                                delay: buttonDelay * 5,
                                             },
-                                        }}
-                                        initial="hidden"
-                                        animate="visible"
-                                    >
-                                        <Text className="link-navs" color="primary">
+                                        },
+                                    }}
+                                    initial="hidden"
+                                    animate="visible"
+                                >
+                                    <Text className="link-navs" color="primary">
                                         <Link className="link-navs" href="/">
                                             Hackathon
                                         </Link>
                                     </Text>
-                                    </motion.div>
+                                </motion.div>
                             </li>
                             <li>
                                 <motion.div
@@ -205,6 +206,29 @@ export default function Header() {
                             </li>
                         </ul>
                     </nav>
+                </Flex>
+                <Flex>
+                    <motion.div
+                        variants={{
+                            ...buttonVariants,
+                            visible: {
+                                ...buttonVariants.visible,
+                                transition: {
+                                    ...buttonVariants.visible.transition,
+                                    delay: buttonDelay * 11,
+                                },
+                            },
+                        }}
+                        initial="hidden"
+                        animate="visible"
+                    >
+                        <ButtonGroup gap='4'>
+                            <Button bgColor={"#333333"}>Sign Up</Button>
+                            <Link href="./login">
+                                <Button bgColor={"#1B76FF"}>Log In</Button>
+                            </Link>
+                        </ButtonGroup>
+                    </motion.div>
                 </Flex>
             </Flex>
         </>
