@@ -16,7 +16,7 @@ export default function Home() {
       {/* CONTENT */}
       {/* <Heading>Welcome to TOHacks!</Heading> */}
       <Layout>
-        Test
+        Temporary Children Content
       </Layout>
       {/* CONTENT */}
     </>

@@ -49,7 +49,7 @@ export default function Header() {
     const buttonDelay = 0.15;
     return (
         <div
-            >
+        >
             <Flex
                 zIndex="100 !important"
                 justifyContent="space-between"
@@ -57,6 +57,7 @@ export default function Header() {
                 position={"relative"}
                 direction={["column", "row"]}
                 alignItems="center"
+                bg={"#0A0F24"}
             >
                 <motion.div
                     variants={{
@@ -216,7 +217,7 @@ export default function Header() {
                                 ...buttonVariants.visible,
                                 transition: {
                                     ...buttonVariants.visible.transition,
-                                    delay: buttonDelay * 11,
+                                    delay: buttonDelay * 9.5,
                                 },
                             },
                         }}
@@ -224,8 +225,11 @@ export default function Header() {
                         animate="visible"
                     >
                         <ButtonGroup gap='4'>
-                            <Button bgColor={"#333333"} borderRadius="20px">Sign Up</Button>
-                            <Link href="./login">
+                            <Link href="/signup">
+                                <Button bgColor={"#333333"} borderRadius="20px">Sign Up</Button>
+                            </Link>
+
+                            <Link href="/login">
                                 <Button bgColor={"#1B76FF"} borderRadius="20px">Log In</Button>
                             </Link>
                         </ButtonGroup>

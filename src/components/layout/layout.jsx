@@ -5,7 +5,7 @@ import Footer from "./footer";
 export default function Layout({ children }) {
   return (
     <>
-      <div>
+      <div bg={"#1E1E1E"}>
         <Navbar />
         <main>
           {children}
