@@ -1,18 +1,17 @@
 import React from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
+import { Box } from "@chakra-ui/react";
 
 export default function Layout({ children }) {
   return (
-    <>
-      <div bg={"#1E1E1E"}>
+      <Box bg={"#1E1E1E"}>
         <Navbar />
-        <main>
+        <Box mx={"80px"}>
           {children}
-        </main>
-        <Footer />
-      </div>
+        </Box>
+        <Footer/>
+      </Box>
 
-    </>
   )
 }
