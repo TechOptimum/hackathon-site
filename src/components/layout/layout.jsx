@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
+import Temp from "../temp";
 import { Box } from "@chakra-ui/react";
 
 export default function Layout({ children }) {

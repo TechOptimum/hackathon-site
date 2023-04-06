@@ -4,15 +4,6 @@ import {
     Text,
     Button,
     Heading,
-    Menu,
-    MenuButton,
-    MenuItem,
-    MenuList,
-    useDisclosure,
-    Spacer,
-    NextChakraLink,
-    SimpleButton,
-    Image,
     ButtonGroup,
 } from "@chakra-ui/react";
 
@@ -20,17 +11,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function Header() {
-    // const { isOpen, onOpen, onClose } = useDisclosure()
-    const {
-        isOpen: isEditOpen,
-        onOpen: onEditOpen,
-        onClose: onEditClose,
-    } = useDisclosure();
-    const {
-        isOpen: isSecondOpen,
-        onOpen: onSecondOpen,
-        onClose: onSecondClose,
-    } = useDisclosure();
+
     const buttonVariants = {
         hidden: {
             y: -10,
