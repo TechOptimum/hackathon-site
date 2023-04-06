@@ -5,6 +5,7 @@ import {
     Button,
     Heading,
     ButtonGroup,
+    Box
 } from "@chakra-ui/react";
 
 import Link from "next/link";
@@ -29,8 +30,10 @@ export default function Header() {
     };
     const buttonDelay = 0.15;
     return (
-        <div
-        >
+        <Box
+         className="hackathon-navbar"
+        height={"10%"}
+         >
             <Flex
                 zIndex="100 !important"
                 justifyContent="space-between"
@@ -217,6 +220,6 @@ export default function Header() {
                     </motion.div>
                 </Flex>
             </Flex>
-        </div>
+        </Box>
     );
 }
