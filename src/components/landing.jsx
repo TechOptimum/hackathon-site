@@ -10,6 +10,7 @@ export default function Landing() {
   const minWidth = 1550;
 
   useEffect(() => {
+    setWidth(window.innerWidth);
     const handleWindowResize = () => setWidth(window.innerWidth)
     window.addEventListener("resize", handleWindowResize);
 
