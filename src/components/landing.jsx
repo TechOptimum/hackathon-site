@@ -6,11 +6,14 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Landing() {
-  const [width, setWidth] = useState(1400);
+  const [width, setWidth] = useState(0);
   const minWidth = 1550;
 
   useEffect(() => {
-    window.addEventListener("resize", () => setWidth(window.innerWidth));
+    const handleWindowResize = () => setWidth(window.innerWidth)
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => window.removeEventListener("resize", handleWindowResize);
   }, []);
 
   return (width > minWidth)
