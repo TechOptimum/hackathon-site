@@ -33,9 +33,9 @@ export default function Header() {
     const buttonDelay = 0.15;
     return (
         <Box
-         className="hackathon-navbar"
-        height={"10%"}
-         >
+            className="hackathon-navbar"
+            height={"10%"}
+        >
             <Flex
                 zIndex="100 !important"
                 justifyContent="space-between"
