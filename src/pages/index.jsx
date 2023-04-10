@@ -14,11 +14,9 @@ export default function Home() {
         <link rel="icon" href="/TOFavicon(Dblue).ico" />
       </Head>
       {/* CONTENT */}
-      {/* <Heading>Welcome to TOHacks!</Heading> */}
-      <Layout>
+      {/* <Layout>
         <Temp></Temp>
-      </Layout>
-      {/* CONTENT */}
+      </Layout> */}
     </>
   );
 }
