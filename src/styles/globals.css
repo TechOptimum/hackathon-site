@@ -49,3 +49,14 @@ html {
 .link-navs:hover {
   color: #ffffff;
 }
+
+.globe{
+  width: 100%;
+  height: 100px;
+  border-radius: 50% / 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 0;
+  background: linear-gradient(89.3deg, #02050d 0%, #162240 40.6609%);
+  box-shadow: 0 0 10px 2px #A7B2FF;
+}

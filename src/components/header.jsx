@@ -8,6 +8,8 @@ import {
     Box
 } from "@chakra-ui/react";
 
+import NextLink from "next/link"
+
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -212,7 +214,6 @@ export default function Header() {
                             <Link href="/signup">
                                 <Button bgColor={"#333333"} borderRadius="20px">Sign Up</Button>
                             </Link>
-
                             <Link href="/login">
                                 <Button bgColor={"#1B76FF"} borderRadius="20px">Log In</Button>
                             </Link>

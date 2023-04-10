@@ -1,8 +1,9 @@
 import React from "react";
+import { Box, Flex } from "@chakra-ui/react";
 
 export default function Temp() {
   return (
-  <div>
+  <Box m={"10px"}>
     <h1>Temporary Children Content</h1>
     <p>Can be removed in regards to any pages/children that will get passed in here</p>
     <h1>Temporary Children Content</h1>
@@ -33,35 +34,5 @@ export default function Temp() {
     <p>Can be removed in regards to any pages/children that will get passed in here</p>
     <h1>Temporary Children Content</h1>
     <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    <h1>Temporary Children Content</h1>
-    <p>Can be removed in regards to any pages/children that will get passed in here</p>
-    </div>);
+    </Box>);
 }
