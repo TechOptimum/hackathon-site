@@ -14,9 +14,9 @@ export default function Home() {
         <link rel="icon" href="/TOFavicon(Dblue).ico" />
       </Head>
       {/* CONTENT */}
-      {/* <Layout>
+      <Layout>
         <Temp></Temp>
-      </Layout> */}
+      </Layout>
     </>
   );
 }
