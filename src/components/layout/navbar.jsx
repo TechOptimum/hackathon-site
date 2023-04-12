@@ -1,5 +1,7 @@
 import React from "react";
-
-export default function navbar() {
-  return <div>navbar</div>;
+import Header from "../header";
+export default function Navbar() {
+  return (
+    <Header/>
+  );
 }
