@@ -1,7 +1,5 @@
 import React from "react";
 import Header from "../header";
 export default function Navbar() {
-  return (
-    <Header/>
-  );
+  return <Header />;
 }

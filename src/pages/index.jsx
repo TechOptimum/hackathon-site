@@ -6,7 +6,6 @@ import Temp from "@/components/temp";
 
 import Landing from "@/components/landing";
 
-
 export default function Home() {
   return (
     <>
@@ -21,12 +20,8 @@ export default function Home() {
 
       {/* CONTENT */}
       <Layout>
-        <Temp></Temp>
+        <Landing />
       </Layout>
-
-
-      <Landing />
-
     </>
   );
 }
