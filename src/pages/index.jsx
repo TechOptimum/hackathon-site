@@ -1,10 +1,6 @@
 import Head from "next/head";
-
-import { Heading } from "@chakra-ui/react";
-import Layout from "@/components/layout/layout";
-import Temp from "@/components/temp";
-
-import Landing from "@/components/landing";
+import { Button } from "@nextui-org/react";
+import Header from "../components/layout/navbar";
 
 export default function Home() {
   return (
@@ -19,9 +15,8 @@ export default function Home() {
       </Head>
 
       {/* CONTENT */}
-      <Layout>
-        <Landing />
-      </Layout>
+
+      <Header />
     </>
   );
 }
