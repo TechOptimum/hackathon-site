@@ -1,14 +1,13 @@
 import "@/styles/globals.css";
-import { ChakraProvider } from "@chakra-ui/react";
+import { NextUIProvider } from "@nextui-org/react";
 import theme from "@/styles/theme";
 import Fonts from "@/components/font";
 
-
 export default function App({ Component, pageProps }) {
   return (
-    <ChakraProvider theme={theme}>
+    <NextUIProvider theme={theme}>
       <Fonts />
       <Component {...pageProps} />
-    </ChakraProvider>
+    </NextUIProvider>
   );
 }
