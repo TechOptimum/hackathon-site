@@ -73,5 +73,4 @@ const SponsorCompanyTest = () => {
   );
 };
 
-export default SponsorCompanyTest
-;
+export default SponsorCompanyTest;
